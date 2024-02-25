@@ -57,5 +57,18 @@ public class Get_Loopy
         }
         System.out.println();
 
+        //Extra credit Task
+        int size = 6;
+        for (int rowD = 1; rowD <= size; rowD++) {
+            System.out.print("*");
+            for (int colD = 1; colD < rowD; colD++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int colD = size - rowD; colD > 0; colD--) {
+                System.out.print(" ");
+            }
+            System.out.println("*");
+        }
     }
 }
